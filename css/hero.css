@@ -52,10 +52,10 @@
 
 .order-button:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .order-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }

@@ -59,7 +59,7 @@
   color: #f4f4fd;
 }
 
-.team-card li:hover,
-.team-card li:focus {
+.team-card .social-icon:hover,
+.team-card .social-icon:focus {
   background: #404bbf;
 }
