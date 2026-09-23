@@ -29,6 +29,53 @@
   color: #f4f4fd;
 }
 
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.container .social {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 120px;
+}
+.footer h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.social ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.social li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+}
+
+.social li:hover {
+  background: #31d0aa;
+}
+
 .container .info {
   display: flex;
   align-items: flex-start;

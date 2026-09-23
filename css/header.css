@@ -67,3 +67,19 @@
 .link:focus {
   color: #404bbf;
 }
+
+.link:active::before {
+  content: "";
+}
+
+.link:active::after {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 48px;
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  background: #404bbf;
+}
