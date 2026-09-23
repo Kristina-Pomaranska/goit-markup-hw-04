@@ -44,7 +44,7 @@
   gap: 16px;
   margin-left: 120px;
 }
-.footer h1 {
+.social-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -53,7 +53,7 @@
   color: #fff;
 }
 
-.social ul {
+.social-list {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -61,7 +61,7 @@
   gap: 16px;
 }
 
-.social li {
+.social-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,8 +72,10 @@
   background: #4d5ae5;
 }
 
-.social li:hover {
+.social-item:hover,
+.social-item:focus {
   background: #31d0aa;
+  transition: background-color 250ms ease-in-out;
 }
 
 .container .info {
