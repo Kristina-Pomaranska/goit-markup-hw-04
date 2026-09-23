@@ -10,7 +10,7 @@
   gap: 72px;
 }
 
-.portfolio ul {
+.portfolio .card-list {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -48,12 +48,12 @@
   transition: transform 250ms ease-in-out;
 }
 
-.portfolio li {
+.portfolio .card-all {
   width: 360px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio li:hover .overlay {
+.portfolio .card-all:hover .overlay {
   transform: translateY(0);
 }
 .portfolio .card-overlay {
@@ -61,7 +61,7 @@
   overflow: hidden;
 }
 
-.portfolio li:hover {
+.portfolio .card-all:hover {
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
